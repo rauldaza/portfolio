@@ -37,10 +37,10 @@ const MainContent = () => {
         </div>
       </div>
 
-      <div className="separate"></div>
+      {/* <div className="separate"></div>
       <footer>
         <p>2023 All Rights Reserved. Jose Ortiz</p>
-      </footer>
+      </footer> */}
     </section>
   );
 };
