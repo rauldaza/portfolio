@@ -6,13 +6,13 @@ const MainProfile = () => {
   return (
     <header>
       <div className="information-main-profile">
-        <h1>I´m Raul Daza</h1>
+        <h1>I am Raul Daza</h1>
         <h1 className="flex">
           <span className="text-sky-500">Data Scientist</span>&nbsp;
         </h1>
         <p className="w-3/4">
-          I´m an electronic engineering student focused on data science and computer vision.
-          I´m passionate about turning real-world data into valuable solutions by combining
+          I am an electronic engineering student focused on data science and computer vision.
+          I am passionate about turning real-world data into valuable solutions by combining
           programming, statistics, and machine learning.
         </p>
 
