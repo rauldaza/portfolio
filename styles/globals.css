@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  @apply bg-zinc-100 text-[85%];
+}
+main {
+  @apply flex gap-6;
+}
+
+h1 {
+  @apply font-bold text-6xl;
+}
+
+h2 {
+  @apply font-bold text-4xl;
+}
+
+h3 {
+  @apply font-semibold text-xl;
+}
+
+p {
+  @apply text-gray-500;
+}
+
+.left-menu {
+  @apply h-screen w-[22%] gap-2 bg-white flex flex-col items-center px-12 py-2 fixed;
+}
+
+.profile-card {
+  @apply gap-1 flex flex-col items-center text-center;
+}
+
+.image-profile {
+  @apply w-32 h-32 rounded-full overflow-hidden;
+}
+
+.personal-information {
+  @apply flex flex-col gap-1 w-full;
+}
+
+.personal-information > div {
+  @apply flex justify-between;
+}
+
+.personal-information > div > p {
+  @apply text-black;
+}
+
+.lenguages {
+  @apply flex flex-col w-full;
+}
+
+.name-progess-bar {
+  @apply flex justify-between my-1;
+}
+
+progress {
+  @apply flex w-full h-1.5;
+}
+progress::-webkit-progress-bar {
+  @apply bg-white border-solid border border-sky-500 rounded-full;
+}
+
+progress::-webkit-progress-value {
+  @apply bg-sky-500 border-solid border-t-0 border-b border-x border-white rounded-full;
+}
+
+.extra-skills {
+  @apply w-full flex flex-col gap-1;
+}
+
+.extra-skills > div {
+  @apply flex items-center w-full;
+}
+
+.icon {
+  @apply text-sky-500 flex flex-col;
+}
+
+.main-content {
+  @apply w-[70%] flex flex-col bg-white;
+}
+
+header {
+  @apply flex justify-evenly px-10;
+}
+
+.information-main-profile {
+  @apply w-[75%] flex flex-col mt-16 mb-11 gap-7;
+}
+
+.button {
+  @apply bg-sky-500 shadow-lg rounded-md p-4 w-36 hover:scale-110 transition-transform ease-in-out
+  hover:bg-sky-400 hover:text-white;
+}
+
+.button > button {
+  @apply flex gap-2 items-center;
+}
+
+.section-introduction {
+  @apply flex flex-col gap-4 items-center bg-zinc-100 py-10;
+}
+
+.my-knowledge {
+  @apply grid grid-cols-3 gap-3 bg-zinc-100;
+}
+
+.knowledge-card {
+  @apply flex flex-col items-center bg-white py-8 px-14 gap-4 hover:scale-105 transition-transform duration-300 ease-in-out;
+}
+
+.knowledge-card > div {
+  @apply bg-white text-sky-500 text-9xl hover:text-sky-400;
+}
+
+.education {
+  @apply flex flex-col gap-2;
+}
+
+.education-item {
+  @apply flex gap-36 py-10 px-8 hover:scale-105 transition-transform duration-300 ease-in-out;
+}
+
+.education-item > div {
+  @apply flex flex-col gap-5;
+}
+
+.portfolio {
+  @apply flex overflow-x-auto bg-zinc-100 gap-14;
+}
+
+.portfolio-card {
+  @apply flex flex-col text-left bg-white gap-4 hover:scale-x-105 transition-transform ease-in-out;
+}
+
+.image-portfolio {
+  @apply mt-9 w-96;
+}
+
+.information-portfolio {
+  @apply flex flex-col  bg-white gap-3 mx-6 mb-4;
+}
+
+.information-portfolio > a {
+  @apply flex justify-start bg-white w-28 p-1 text-sky-500 hover:scale-110 transition-transform ease-in-out;
+}
+
+.information-portfolio > a > button {
+  @apply flex gap-1 items-center underline hover:text-sky-300 ;
+}
+
+.right-menu {
+  @apply h-screen bg-white gap-3 flex flex-col items-center fixed right-0;
+}
+
+.right-menu > h3 {
+  @apply flex m-2 mt-10 gap-5;
+}
+
+.conteiner-icon {
+  @apply bg-sky-500 rounded-full shadow-md p-2 mx-3 my-1 hover:scale-110 transition-transform ease-in-out hover:bg-sky-400;
+}
+
+.redes-icon {
+  @apply text-white text-5xl;
+}
+
+footer {
+  @apply text-center py-4;
+}
+
+.separate {
+  @apply bg-zinc-100 h-10;
+}
+
+hr {
+  @apply mx-auto w-11/12;
+}
